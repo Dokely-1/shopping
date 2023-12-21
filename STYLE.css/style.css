@@ -1,0 +1,534 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(27, 39, 39, 0.658);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+ }
+ /*FOOTER*/
+ header{
+    background-color: rgb(32, 14, 98);
+    position: fixed;
+    width: 100%;
+ }
+ /*liste*/
+a{
+    color: rgb(243, 191, 213);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+}
+footer{
+    background-color: bisque;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+}
+h1{
+    font-size: medium;
+    color: rgb(110, 25, 185);
+    text-decoration: solid;
+}
+/*bloc article 1*/
+.sm{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(9, 233, 132, 0.817);
+    float: left;
+    border-radius: 10%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.sm:hover{
+    background-color: rgb(42, 66, 247);
+}
+.lm{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 50%;
+    height: 100%;
+    background-color:  rgb(190, 193, 215);
+    float: left;
+    border-radius: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+.lm:hover{
+    background-color: rgba(7, 7, 244, 0.521);
+}
+.km{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 50%;
+    height: 100%;
+    background-color:  rgb(247, 100, 42);
+    float: left;
+    border-radius: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+.km:hover{
+    background-color: bisque;
+}
+.Jm{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 50%;
+    height: 100%;
+    background-color:  rgb(141, 162, 64);
+    float: left;
+    border-radius: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+.Hm{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 50%;
+    height: 100%;
+    background-color:  rgb(234, 51, 149);
+    float: left;
+    border-radius: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+.Jm:hover{
+    background-color: rgb(33, 90, 194);
+}
+.Hm:hover{
+    background-color: rgb(59, 175, 218);
+}
+.dk{
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    margin-left: 60%;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(104, 202, 202);
+    border-radius: 50%;
+    text-align: center;
+    background-image: url(../ATAO.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+}
+@media only screen and(min-width:600px){
+body{flex-direction: column; 
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+     }
+     /*FOOTER*/
+     header{
+        background-color: rgb(32, 14, 98);
+        position: fixed;
+        width: 100%;
+     }
+     /*liste*/
+    a{
+        color: rgb(243, 191, 213);
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: x-large;
+    }
+    footer{
+        background-color: bisque;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 8%;
+    }
+    h1{
+        font-size: medium;
+        color: rgb(110, 25, 185);
+        text-decoration: solid;
+    }
+    /*bloc article 1*/
+    .sm{
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color: rgba(9, 233, 132, 0.817);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+    }
+    .sm:hover{
+        background-color: rgb(42, 66, 247);
+    }
+    .lm{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color:  rgb(190, 193, 215);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .lm:hover{
+        background-color: rgba(7, 7, 244, 0.521);
+    }
+    .km{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color:  rgb(247, 100, 42);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .km:hover{
+        background-color: bisque;
+    }
+    .Jm{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color:  rgb(141, 162, 64);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .Hm{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color:  rgb(234, 51, 149);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .Jm:hover{
+        background-color: rgb(33, 90, 194);
+    }
+    .Hm:hover{
+        background-color: rgb(59, 175, 218);
+    }
+    .dk{
+        display: block;
+        margin-top: 10%;
+        margin-bottom: 10px;
+        margin-left: 60%;
+        width: 400px;
+        height: 200px;
+        background-color: rgb(104, 202, 202);
+        border-radius: 50%;
+        text-align: center;
+        background-image: url(../ATAO.jpg);
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+    }  
+}}
+@media only screen and(min-width:601px) and (max-whidth:1024px){
+body{flex-direction: column;   
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+     }
+     /*FOOTER*/
+     header{
+        background-color: rgb(32, 14, 98);
+        position: fixed;
+        width: 100%;
+     }
+     /*liste*/
+    a{
+        color: rgb(243, 191, 213);
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: x-large;
+    }
+    footer{
+        background-color: bisque;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 8%;
+    }
+    h1{
+        font-size: medium;
+        color: rgb(110, 25, 185);
+        text-decoration: solid;
+    }
+    /*bloc article 1*/
+    .sm{
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color: rgba(9, 233, 132, 0.817);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+    }
+    .sm:hover{
+        background-color: rgb(42, 66, 247);
+    }
+    .lm{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color:  rgb(190, 193, 215);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .lm:hover{
+        background-color: rgba(7, 7, 244, 0.521);
+    }
+    .km{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color:  rgb(247, 100, 42);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .km:hover{
+        background-color: bisque;
+    }
+    .Jm{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color:  rgb(141, 162, 64);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .Hm{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 50%;
+        height: 100%;
+        background-color:  rgb(234, 51, 149);
+        float: left;
+        border-radius: 10%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .Jm:hover{
+        background-color: rgb(33, 90, 194);
+    }
+    .Hm:hover{
+        background-color: rgb(59, 175, 218);
+    }
+    .dk{
+        display: block;
+        margin-top: 10%;
+        margin-bottom: 10px;
+        margin-left: 60%;
+        width: 400px;
+        height: 200px;
+        background-color: rgb(104, 202, 202);
+        border-radius: 50%;
+        text-align: center;
+        background-image: url(/sary/ATAO.jpg);
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+    }
+}}
+@media only screen and(max-width:1025px){
+    body{flex-direction: column;  
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+         }
+         /*FOOTER*/
+         header{
+            background-color: rgb(32, 14, 98);
+            position: fixed;
+            width: 100%;
+         }
+         /*liste*/
+        a{
+            color: rgb(243, 191, 213);
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: x-large;
+        }
+        footer{
+            background-color: bisque;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 8%;
+        }
+        h1{
+            font-size: medium;
+            color: rgb(110, 25, 185);
+            text-decoration: solid;
+        }
+        /*bloc article 1*/
+        .sm{
+            display: block;
+            margin-top: 50px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(9, 233, 132, 0.817);
+            float: left;
+            border-radius: 10%;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .sm:hover{
+            background-color: rgb(42, 66, 247);
+        }
+        .lm{
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            width: 50%;
+            height: 100%;
+            background-color:  rgb(190, 193, 215);
+            float: left;
+            border-radius: 10%;
+            text-align: center;
+            overflow: hidden;
+        }
+        .lm:hover{
+            background-color: rgba(7, 7, 244, 0.521);
+        }
+        .km{
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            width: 50%;
+            height: 100%;
+            background-color:  rgb(247, 100, 42);
+            float: left;
+            border-radius: 10%;
+            text-align: center;
+            overflow: hidden;
+        }
+        .km:hover{
+            background-color: bisque;
+        }
+        .Jm{
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            width: 50%;
+            height: 100%;
+            background-color:  rgb(141, 162, 64);
+            float: left;
+            border-radius: 10%;
+            text-align: center;
+            overflow: hidden;
+        }
+        .Hm{
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            width: 50%;
+            height: 100%;
+            background-color:  rgb(234, 51, 149);
+            float: left;
+            border-radius: 10%;
+            text-align: center;
+            overflow: hidden;
+        }
+        .Jm:hover{
+            background-color: rgb(33, 90, 194);
+        }
+        .Hm:hover{
+            background-color: rgb(59, 175, 218);
+        }
+        .dk{
+            display: block;
+            margin-top: 10%;
+            margin-bottom: 10px;
+            margin-left: 60%;
+            width: 400px;
+            height: 200px;
+            background-color: rgb(104, 202, 202);
+            border-radius: 50%;
+            text-align: center;
+            background-image: url(../sary/ATAO.jpg);
+            background-size: cover;
+            overflow: hidden;
+            position: absolute;
+        } 
+    }}
